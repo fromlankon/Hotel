@@ -16,15 +16,6 @@
     margin-bottom: 40px;
 }
 
-.cover {
-    width: 100%;
-    height: 180px;
-    background-image: url('/src/img/10.jpg');
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
 .coverOverlay {
     width: 100%;
     height: 180px;
