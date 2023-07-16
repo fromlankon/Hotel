@@ -1,0 +1,565 @@
+@import './components/root.css';
+@import './components/navbar.css';
+@import './components/cover.css';
+@import './components/footer.css';
+
+@font-face {
+    font-family: Thin;
+    src: url(../Fonts/Poppins-Thin.ttf);
+}
+
+@font-face {
+    font-family: Light;
+    src: url(../Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: ExtraLight;
+    src: url(../Fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(../Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(../Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(../Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(../Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: ExtraBold;
+    src: url(../Fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsBlack;
+    src: url(../Fonts/Poppins-Black.ttf);
+}
+
+.section1img {
+    background-image: url('../img/11.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 39, 55, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section1Text1 {
+    font-family: Medium;
+    color: white;
+    font-size: 50px;
+}
+
+.section1Text2 {
+    font-family: Medium;
+    color: white;
+    font-size: 16px;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.section2width {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.section2img1 {
+    width: 300px;
+    height: 300px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/24.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.section2img2 {
+    width: 300px;
+    height: 300px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/25.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.section2img3 {
+    width: 300px;
+    height: 300px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/26.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.section2img4 {
+    width: 300px;
+    height: 300px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/27.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.section2img5 {
+    width: 300px;
+    height: 300px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/28.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.rightSideDiv1 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(232, 241, 248);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.leftSideDiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 760px;
+}
+
+.leftSideRightDiv {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text1 {
+    color: #1cc3b2;
+    font-family: SemiBold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.text3 {
+    font-family: Medium;
+    font-size: 20px;
+    color: #2a303b;
+}
+
+.text4 {
+    font-family: Regular;
+    font-size: 16px;
+    color: #636a76;
+}
+
+.text5 {
+    font-family: Medium;
+    font-size: 16px;
+    color: #afb4bf;
+    text-decoration: underline;
+}
+
+.text5:hover {
+    color: #2a303b;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.rightSideInput {
+    width: 250px;
+    height: 44px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-family: Medium;
+    padding-left: 12px;
+}
+
+.rightSideInput:focus {
+    outline: 1px solid #1cc3b2;
+}
+
+.rightSideButton {
+    width: 250px;
+    height: 44px;
+    border: none;
+    background-color: #1cc3b2;
+    font-family: Medium;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.rightSideButton:hover {
+    background-color: white;
+    color: #1cc3b2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pagination {
+    display: flex;
+    gap: 4px;
+    user-select: none;
+}
+
+.pagination div {
+    background-color: rgb(232, 241, 248);
+    border-radius: 3px;
+    font-family: Medium;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.pagination div:hover {
+    background-color: rgb(28, 195, 178);
+    color: white;
+}
+
+.pagination1 {
+    width: 34px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.pagination2 {
+    width: 34px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.pagination3 {
+    width: 34px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.paginationNext {
+    width: 70px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.recent {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+}
+
+.rightDiv {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightDiv2 {
+    width: 170px;
+    padding-top: 6px;
+}
+
+.recentImg1 {
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/29.jpg.webp');
+    width: 110px;
+    height: 90px;
+    border-radius: 3px;
+}
+
+.recentImg2 {
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/30.jpg.webp');
+    width: 110px;
+    height: 90px;
+    border-radius: 3px;
+}
+
+.recentImg3 {
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/31.jpg.webp');
+    width: 110px;
+    height: 90px;
+    border-radius: 3px;
+}
+
+.recentImg4 {
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/32.jpg.webp');
+    width: 110px;
+    height: 90px;
+    border-radius: 3px;
+}
+
+.text6 {
+    font-family: SemiBold;
+    color: #1cc3b2;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.text8 {
+    font-family: Medium;
+    font-size: 14px;
+    padding-top: 7px;
+}
+
+.MainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.div2 {
+    width: 300px;
+    color: #afb4bf;
+    font-family: Regular;
+    user-select: none;
+    padding-top: 24px;
+}
+
+.text10 {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.text10:hover {
+    color: #1cc3b2;
+}
+
+.instagram {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 30px;
+}
+
+.instaImg1 {
+    width: 90px;
+    height: 90px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/33.jpg.webp');
+}
+
+.instaImg2 {
+    width: 90px;
+    height: 90px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/34.jpg.webp');
+}
+
+.instaImg3 {
+    width: 90px;
+    height: 90px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/35.jpg.webp');
+}
+
+.instaImg4 {
+    width: 90px;
+    height: 90px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/36.jpg.webp');
+}
+
+.instaImg5 {
+    width: 90px;
+    height: 90px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/37.jpg.webp');
+}
+
+.instaImg6 {
+    width: 90px;
+    height: 90px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/38.jpg.webp');
+}
+
+.row5,
+.row6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.section6Cover {
+    width: 1100px;
+}
+
+.searchBar {
+    width: 100%;
+    height: 0px;
+    background-color: rgb(20, 188, 178);
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBarWidth {
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBarInput {
+    width: 1000px;
+    height: 80px;
+    border: none;
+    outline: none;
+    background-color: rgb(20, 188, 178);
+    font-family: Medium;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchIcon {
+    color: white;
+    font-size: 20px;
+}
+
+.searchIcon:hover {
+    color: white;
+}
+
+.scrollButton {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    border-radius: 50px;
+    background-color: rgb(20, 188, 178);
+    z-index: 5000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    user-select: none;
+}
+
+.scrollButton.visible {
+    display: flex;
+}
+
+.bx-chevrons-up {
+    color: white;
+    font-size: 28px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1180px) {
+    .section2width {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .leftSideDiv1 {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .section2img1, .section2img2, .section2img3, .section2img4, .section2img5{
+        width: 70%;
+        height: 50vh;
+    }
+
+    .leftSideRightDiv{
+        width: 70%;
+    }
+
+    .pagination{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section2img1, .section2img2, .section2img3, .section2img4, .section2img5{
+        width: 46%;
+        height: 30vh;
+    }
+
+    .leftSideRightDiv{
+        width: 46%;
+    }
+
+    .pagination{
+        width: 46%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .section2img1, .section2img2, .section2img3, .section2img4, .section2img5{
+        width: 36%;
+        height: 24vh;
+    }
+
+    .leftSideRightDiv{
+        width: 36%;
+    }
+
+    .pagination{
+        width: 36%;
+    }
+}

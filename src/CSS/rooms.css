@@ -1,0 +1,632 @@
+@import './components/navbar.css';
+@import './components/root.css';
+@import './components/cover.css';
+@import './components/footer.css';
+
+@font-face {
+    font-family: Thin;
+    src: url(../Fonts/Poppins-Thin.ttf);
+}
+
+@font-face {
+    font-family: Light;
+    src: url(../Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: ExtraLight;
+    src: url(../Fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(../Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(../Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(../Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(../Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: ExtraBold;
+    src: url(../Fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsBlack;
+    src: url(../Fonts/Poppins-Black.ttf);
+}
+
+.section1img {
+    background-image: url('../img/11.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 39, 55, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section1Text1 {
+    font-family: Medium;
+    color: white;
+    font-size: 50px;
+}
+
+.section1Text2 {
+    font-family: Medium;
+    color: white;
+    font-size: 16px;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2width {
+    width: 1100px;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+.section2div1 {
+    width: 680px;
+    height: 265px;
+    display: flex;
+}
+
+.section2Div1Div2 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 28px;
+}
+
+.sc {
+    display: flex;
+    justify-content: center;
+}
+
+.leftSide{
+    width: 55%;
+}
+
+.rightSide{
+    width: 45%;
+}
+
+.row8 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text1 {
+    font-family: Medium;
+    font-size: 30px;
+    color: rgb(42, 48, 59);
+}
+
+.text2 {
+    font-family: Medium;
+    font-size: 24px;
+    color: rgb(28, 195, 178);
+}
+
+.text3 {
+    font-family: Medium;
+    font-size: 15px;
+    color: #afb4bf;
+}
+
+.text4 {
+    color: #424b5c;
+    font-family: Medium;
+    font-size: 16px;
+}
+
+.text5 {
+    color: rgb(28, 195, 178);
+    font-family: Medium;
+    font-size: 16px;
+}
+
+.text6{
+    font-family: Regular;
+    color: #343a40;
+    font-size: 18px;
+}
+
+.input {
+    width: 170px;
+    height: 48px;
+    outline: none;
+    border: 1px solid rgb(198, 198, 198);
+    font-family: Medium;
+    color: rgb(168, 168, 168);
+    padding-left: 18px;
+}
+
+.input:focus {
+    border: 1px solid rgb(28, 195, 178);
+}
+
+.topDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dateInput {
+    display: flex;
+    padding-top: 14px;
+}
+
+.topDivs {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.select {
+    width: 160px;
+    height: 48px;
+    outline: none;
+    border: 1px solid rgb(198, 198, 198);
+    font-family: Medium;
+    color: rgb(82, 82, 82);
+    padding-left: 18px;
+}
+
+.selectInput {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+
+.checkDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.checkButton {
+    width: 340px;
+    height: 45px;
+    background-color: rgb(28, 195, 178);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-family: Medium;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 18px;
+    transition: .3s;
+}
+
+.checkButton:hover {
+    background-color: white;
+    color: rgb(28, 195, 178);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pagination {
+    display: flex;
+    gap: 4px;
+    user-select: none;
+}
+
+.pagination div {
+    background-color: rgb(232, 241, 248);
+    border-radius: 3px;
+    font-family: Medium;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.pagination div:hover {
+    background-color: rgb(28, 195, 178);
+    color: white;
+}
+
+.pagination1 {
+    width: 34px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.pagination2 {
+    width: 34px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.pagination3 {
+    width: 34px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.paginationNext {
+    width: 70px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.fa-angle-right {
+    font-size: 13px;
+}
+
+.section3 {
+    width: 100%px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.section6Cover {
+    width: 1100px;
+}
+
+.searchBar {
+    width: 100%;
+    height: 0px;
+    background-color: rgb(20, 188, 178);
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBarWidth {
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBarInput {
+    width: 1000px;
+    height: 80px;
+    border: none;
+    outline: none;
+    background-color: rgb(20, 188, 178);
+    font-family: Medium;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchIcon {
+    color: white;
+    font-size: 20px;
+}
+
+.searchIcon:hover {
+    color: white;
+}
+
+[slider] {
+    position: relative;
+    height: 14px;
+    border-radius: 10px;
+    text-align: left;
+    margin: 20px 0 10px 0;
+}
+
+[slider]>div {
+    position: absolute;
+    left: 13px;
+    right: 15px;
+    height: 14px;
+}
+
+[slider]>div>[inverse-left] {
+    position: absolute;
+    left: 0;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #CCC;
+}
+
+[slider]>div>[inverse-right] {
+    position: absolute;
+    right: 0;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #CCC;
+}
+
+[slider]>div>[range] {
+    position: absolute;
+    left: 0;
+    height: 6px;
+    border-radius: 14px;
+    background-color: rgb(20, 188, 178);
+}
+
+[slider]>div>[thumb] {
+    position: absolute;
+    top: -7px;
+    z-index: 2;
+    height: 20px;
+    width: 20px;
+    text-align: left;
+    margin-left: -11px;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+    background-color: rgb(20, 188, 178);
+    border-radius: 50%;
+    outline: none;
+}
+
+[slider]>input[type=range] {
+    position: absolute;
+    pointer-events: none;
+    z-index: 3;
+    height: 6px;
+    top: -2px;
+    width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+
+div[slider]>input[type=range]::-ms-track {
+    background: transparent;
+    color: transparent;
+}
+
+div[slider]>input[type=range]::-moz-range-track {
+    -moz-appearance: none;
+    background: transparent;
+    color: transparent;
+}
+
+div[slider]>input[type=range]:focus::-webkit-slider-runnable-track {
+    background: transparent;
+    border: transparent;
+}
+
+div[slider]>input[type=range]:focus {
+    outline: none;
+}
+
+div[slider]>input[type=range]::-ms-thumb {
+    pointer-events: all;
+    width: 28px;
+    height: 28px;
+    border-radius: 0px;
+    border: 0 none;
+    background: red;
+}
+
+div[slider]>input[type=range]::-moz-range-thumb {
+    pointer-events: all;
+    width: 28px;
+    height: 28px;
+    border-radius: 0px;
+    border: 0 none;
+    background: red;
+}
+
+div[slider]>input[type=range]::-webkit-slider-thumb {
+    pointer-events: all;
+    width: 28px;
+    height: 28px;
+    border-radius: 0px;
+    border: 0 none;
+    background: red;
+    -webkit-appearance: none;
+}
+
+div[slider]>input[type=range]::-ms-fill-lower {
+    background: transparent;
+    border: 0 none;
+}
+
+div[slider]>input[type=range]::-ms-fill-upper {
+    background: transparent;
+    border: 0 none;
+}
+
+div[slider]>input[type=range]::-ms-tooltip {
+    display: none;
+}
+
+[slider]>div>[sign] {
+    opacity: 0;
+    position: absolute;
+    margin-left: -11px;
+    top: -39px;
+    z-index: 3;
+    background-color: rgb(20, 188, 178);
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+[slider]>div>[sign]:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    border-radius: 16px;
+    top: 19px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top-width: 16px;
+    border-top-style: solid;
+    border-top-color: rgb(20, 188, 178);
+}
+
+[slider]>div>[sign]>span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+[slider]:hover>div>[sign] {
+    opacity: 1;
+}
+
+.scrollButton{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    border-radius: 50px;
+    background-color: rgb(20, 188, 178);
+    z-index: 5000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    user-select: none;
+}
+
+.scrollButton.visible{
+    display: flex;
+}
+
+.bx-chevrons-up{
+    color: white;
+    font-size: 28px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1200px) {
+    .topDiv{
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+    .dateInput{
+        width: 100%;
+    }
+
+    .checkDiv {
+        width: 62%;
+    }
+
+    .input{
+        width: 50%;
+    }
+
+    .select{
+        width: 49%;
+    }
+
+    .checkButton{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .topDivs{
+        width: 100%;
+        gap: 1px;
+    }
+
+    .section2div1{
+        flex-direction: column;
+        gap: 20px;
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .pagination{
+        width: 70%;
+        margin: 0 auto;
+        transform: translateY(-30px);
+    }
+
+    .section2Div1img1, .section2Div1img2, .section2Div1img3, .section2Div1img4, .section2Div1img5{
+        width: 550px;
+        height: 65%;
+    }
+
+    .section2Div1Div2{
+        height: 35%;
+    }
+
+    .section2Div1Div2{
+        padding-left: 0;
+        width: 550px;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .text5{
+        padding-top: 20px;
+    }
+
+    .row8{
+        width: 100%;
+    }
+
+    .rightSide{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .section2div1 *{
+        width: 100%;
+    }
+
+    .pagination{
+        width: 70%;
+    }
+}

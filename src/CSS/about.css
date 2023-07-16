@@ -1,0 +1,540 @@
+@import './components/navbar.css';
+@import './components/root.css';
+@import './components/cover.css';
+@import './components/footer.css';
+
+@font-face {
+    font-family: Thin;
+    src: url(../Fonts/Poppins-Thin.ttf);
+}
+
+@font-face {
+    font-family: Light;
+    src: url(../Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: ExtraLight;
+    src: url(../Fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(../Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(../Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(../Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(../Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: ExtraBold;
+    src: url(../Fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsBlack;
+    src: url(../Fonts/Poppins-Black.ttf);
+}
+
+.section1img {
+    background-image: url('../img/11.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 39, 55, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section1Text1 {
+    font-family: Medium;
+    color: white;
+    font-size: 50px;
+}
+
+.section1Text2 {
+    font-family: Medium;
+    color: white;
+    font-size: 16px;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.section2Div {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2img {
+    width: 45%;
+    height: 370px;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/19.jpg.webp');
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.section2RightDiv {
+    width: 50%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text1 {
+    font-family: SemiBold;
+    color: rgb(28, 195, 178);
+    letter-spacing: 2px;
+}
+
+.text2 {
+    font-family: Medium;
+    font-size: 42px;
+    color: rgb(42, 48, 59);
+}
+
+.text3 {
+    font-family: Regular;
+    color: #636a76;
+}
+
+.rightDivBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.signature {
+    width: 300px;
+}
+
+.section3 {
+    overflow: hidden;
+}
+
+.section3img {
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+}
+
+.section3overlay {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(14, 39, 55, 0.7);
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    position: relative;
+}
+
+.text4 {
+    font-family: Medium;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+.text5 {
+    font-family: Medium;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.texts {
+    text-align: center;
+}
+
+.playButton {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 35px);
+}
+
+.playButton:hover {
+    background-color: rgb(28, 195, 178);
+}
+
+.playButton:hover .triangle {
+    border-bottom: 18px solid white;
+}
+
+.triangle {
+    border-bottom: 18px solid rgb(28, 195, 178);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    transform: rotate(90deg);
+    transition: .5s;
+    position: absolute;
+    left: 27px;
+}
+
+.section4 {
+    width: 100%;
+    margin: 90px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4Div {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text6 {
+    font-family: SemiBold;
+    color: rgb(28, 195, 178);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.section4imgDiv {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4img1 {
+    width: 31.5%;
+    height: 100%;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/21.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.section4img1:hover .img1overlay {
+    background-color: rgba(42, 48, 59);
+}
+
+.img1overlay {
+    width: 100%;
+    height: 25%;
+    background-color: rgba(42, 48, 59, 0.5);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Medium;
+    color: white;
+    font-size: 22px;
+    transition: .5s;
+}
+
+.section4img2 {
+    width: 31.5%;
+    height: 100%;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/22.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.section4img2:hover .img1overlay {
+    background-color: rgba(42, 48, 59);
+}
+
+.section4img3 {
+    width: 31.5%;
+    height: 100%;
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/bg-img/23.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.section4img3:hover .img1overlay {
+    background-color: rgba(42, 48, 59);
+}
+
+.section5 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.searchBar {
+    width: 100%;
+    height: 0px;
+    background-color: rgb(20, 188, 178);
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBarWidth {
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBarInput {
+    width: 1000px;
+    height: 80px;
+    border: none;
+    outline: none;
+    background-color: rgb(20, 188, 178);
+    font-family: Medium;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchIcon {
+    color: white;
+    font-size: 20px;
+}
+
+.searchIcon:hover {
+    color: white;
+}
+
+.videoOverlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    display: none;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(20, 188, 178);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fa-xmark {
+    color: white;
+    font-size: 18px;
+}
+
+.scrollButton {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    border-radius: 50px;
+    background-color: rgb(20, 188, 178);
+    z-index: 5000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.bx-chevrons-up {
+    color: white;
+    font-size: 28px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scrollButton.visible {
+    display: flex;
+}
+
+/* @media only screen and (max-width: 1300px) {
+    .section3img {
+        width: 1300px;
+        background-position: bottom;
+    }
+} */
+
+@media only screen and (max-width: 1200px) {
+    .section2Div {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section2img {
+        width: 700px;
+        height: 600px;
+        background-position: right;
+    }
+
+    .section2RightDiv {
+        width: 700px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .section4imgDiv {
+        flex-direction: column;
+        align-items: center;        
+        gap: 50px;
+        height: 150vh;
+    }
+
+    .section4img1, .section4img2, .section4img3{
+        width: 45%;
+        height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .section2img {
+        width: 500px;
+        height: 450px;
+        background-position: right;
+    }
+
+    .section2RightDiv {
+        width: 500px;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+
+    .section2Div {
+        gap: 50px;
+    }
+
+    .section2img {
+        width: 360px;
+        height: 300px;
+        background-position: right;
+    }
+
+    .section2RightDiv {
+        width: 360px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .section4imgDiv {
+        flex-direction: column;
+        align-items: center;        
+        gap: 50px;
+        height: 100vh;
+    }
+
+    .section4img1, .section4img2, .section4img3{
+        width: 30%;
+        height: 30vh;
+    }
+
+    .text2{
+        font-size: 30px;
+    }
+
+    .text6{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .section2Div {
+        gap: 80px;
+    }
+
+    .section2img {
+        width: 280px;
+        height: 200px;
+        background-position: right;
+    }
+
+    .section2RightDiv {
+        width: 280px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .text4{
+        font-size: 14px;
+    }
+
+    .text5{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .section4img1, .section4img2, .section4img3{
+        width: 20%;
+        height: 20vh;
+    }
+
+    .section4imgDiv {
+        height: 60vh;
+    }
+
+    .text2{
+        font-size: 24px;
+    }
+
+    .text6{
+        font-size: 12px;
+    }
+}

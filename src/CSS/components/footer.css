@@ -1,0 +1,263 @@
+footer {
+    background-color: rgb(14, 39, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerWidth {
+    width: 1100px;
+    height: 100%;
+    display: grid;
+    flex-direction: column;
+    margin-top: 70px;    
+}
+
+.footerLogo {
+    background-image: url('https://preview.colorlib.com/theme/roberto/img/core-img/logo2.png.webp');
+    width: 160px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.footerTop {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.footerBottom {
+    margin-bottom: 20px;
+    margin-top: 70px;
+    width: 100%;
+    border-top: 1px solid gray;
+    padding-top: 14px;
+    font-family: Light;
+    color: #afb4bf;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerSI {
+    display: flex;
+    gap: 20px;
+}
+
+.footerText1 {
+    font-family: Medium;
+    font-size: 24px;
+    color: rgb(20, 188, 178);
+}
+
+.footerText2 {
+    font-family: Light;
+    color: #afb4bf;
+    font-size: 14px;
+    width: 260px;
+}
+
+.footerDiv1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+}
+
+.footerText3 {
+    font-family: Medium;
+    color: white;
+    font-size: 22px;
+}
+
+.footerText4 {
+    font-family: Regular;
+    color: white;
+    font-size: 16px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footerText4:hover {
+    color: rgb(20, 188, 178);
+}
+
+.footerDiv2 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 290px;
+}
+
+.footerText5 {
+    font-family: Light;
+    color: #636a76;
+    font-size: 14px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footerText5:hover {
+    color: white;
+}
+
+.footerDiv3 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 190px;
+}
+
+.footerDiv3Flex {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footerInput {
+    width: 340px;
+    height: 42px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(62, 82, 95);
+    padding-left: 20px;
+    font-family: Light;
+    outline: none;
+    color: white;
+}
+
+.fa-paper-plane {
+    font-size: 18px;
+    color: white;
+}
+
+.plane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 188, 178);
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+    transform: translate(301px, -39.5px);
+}
+
+.plane:hover {
+    background-color: #2a303b;
+}
+
+.footerInputDiv {
+    position: relative;
+}
+
+.footerDiv4 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.fb {
+    transition: .3s;
+}
+
+.fb:hover {
+    color: white;
+}
+
+.ig {
+    transition: .3s;
+}
+
+.ig:hover {
+    color: white;
+}
+
+.tw {
+    transition: .3s;
+}
+
+.tw:hover {
+    color: white;
+}
+
+.in {
+    cursor: pointer;
+}
+
+.in {
+    transition: .3s;
+}
+
+.in:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 1180px) {
+
+    .footerTop{
+        width: 82%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-between;
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+    .footerWidth{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerBottom{
+        width: 82%;
+        margin: 30 auto;        
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .footerBottom{
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .footerTop{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        gap: 50px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .footerText6{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .footerWidth{
+        transform: translateX(20px);
+    }
+
+    .footerBottom{
+        transform: translateX(-20px);
+    }
+
+    .footerInput{
+        width: 80%;
+    }
+
+    .plane{
+        transform: translate(193px, -40px);
+    }
+}
